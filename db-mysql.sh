@@ -9,8 +9,8 @@ G="\e[32m"
 N="\e[0m"
 Y="\e[33m"
 
-echo "enter DB password:"
-read mysql_root_password
+echo "enter DB password:ExpenseApp@1"
+read mysql_root_password 
 
 VALIDATE(){
    if [ $1 -ne 0 ] 
